@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerCalculadora">
+        <h1>Calculadora</h1> 
+        <div id="telaExibicao">
+        <p id = "numeroExibido">0</p>
+        </div>
+        <div class="botoes">
+           <button onclick="exibirNaTela(7)">7</button>
+           <button onclick="exibirNaTela(8)">8</button> 
+           <button onclick="exibirNaTela(9)">9</button>
+           <button  id="multiplicar" onclick="armazenarOperador('*')">x</button>
+           <button id="dividir" onclick="armazenarOperador('/')">÷</button> 
+           <button onclick="exibirNaTela(4)">4</button> 
+           <button onclick="exibirNaTela(5)">5</button> 
+           <button onclick="exibirNaTela(6)">6</button> 
+           <button id="somar" onclick="armazenarOperador('+')">+</button> 
+           <button id="subtrair" onclick="armazenarOperador('-')">-</button> 
+           <button onclick="exibirNaTela(1)">1</button> 
+           <button onclick="exibirNaTela(2)">2</button> 
+           <button onclick="exibirNaTela(3)">3</button> 
+           <button onclick="limparTela()">c</button> 
+           <button onclick="armazenarOperador('**')">**</button> 
+           <button id="botao0" onclick="exibirNaTela(0)">0</button>
+           <button id="botaoIgual" onclick="calcularResultado()">=</button>
+
+        </div>
+    </div>
+</body>
+</html>
