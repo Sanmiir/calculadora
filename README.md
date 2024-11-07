@@ -28,4 +28,4 @@ Este projeto é uma calculadora básica, e algumas funcionalidades comuns em cal
 Clone este repositório e abra o arquivo `index.html` em seu navegador para começar a utilizar a calculadora.
 
 ```bash
-git clone https://github.com/Sanmiir/calculadora.git!
+git clone https://github.com/Sanmiir/calculadora.git
