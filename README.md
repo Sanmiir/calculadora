@@ -4,7 +4,7 @@ Este é um projeto simples de calculadora desenvolvida com HTML, CSS e JavaScrip
 
 ## Funcionalidades
 
-- Realiza operações básicas: adição, subtração, multiplicação, divisão e exponeciação.
+- Realiza operações básicas: adição, subtração, multiplicação, divisão e exponenciação.
 - Exibição do resultado na tela.
 - Botão de "limpar" para reiniciar a calculadora.
 
